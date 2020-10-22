@@ -1,0 +1,42 @@
+.Box1 {
+background-color: black;
+color: white;
+width: 200px;
+height: 50px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.Box2 {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.Box3 {
+    background-color: black;
+    color: white;
+    width: 200px;
+height: 50px;
+
+border-style: solid;
+border-color: red;
+border-width: 8px;
+} 
+.Box4 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+border-color: red;
+border-width: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+}

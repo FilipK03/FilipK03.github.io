@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+.parent{
+display:flex;
+}
+
+.box1{
+    width: 33.3%;
+    height: 100vh;
+background-color: black;
+
+}
+
+.box2{
+    width: 33.3%;
+    height: 100vh;
+background-color: yellow;
+}
+
+.box3{
+    width: 33.4%;
+    height: 100vh;
+background-color: red;
+}

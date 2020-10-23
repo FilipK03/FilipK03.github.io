@@ -1,0 +1,23 @@
+.parent{
+height: 500px;
+}
+.box1{
+width: 100%;
+height: 33.3vh;
+background-color: black;
+
+}
+.box2{
+width: 100%;
+height: 33.3vh;
+background-color: red;
+}
+.box3{
+width: 100%;
+height: 33.4vh;
+background-color: yellow;
+
+}
+body{
+    margin: 0px;
+}

@@ -1,0 +1,66 @@
+.button:hover{
+    color: white;
+    background-color: black;
+}
+.--red:hover{
+color: white;
+background-color: red;
+}
+.--green:hover{
+    color: white;
+    background-color: green;
+    }
+
+    .--blue:hover{
+        color: white;
+        background-color: blue;
+        }
+
+.button{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    display: flex;
+    width: 100px;
+    font-weight: bold;
+
+}
+
+.--red{
+    color: red;
+    font-family: sans-serif;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.--green{
+    color: green;
+    font-family: sans-serif;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.--blue{
+    color: blue;
+    font-family: sans-serif;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}

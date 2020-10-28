@@ -1,0 +1,15 @@
+.knapp:hover {
+    
+color: white;
+background-color: crimson;
+    }
+    
+    .knapp{
+color: crimson;
+font-family: sans-serif;
+border: 2px solid crimson;
+border-radius: 50px;
+padding: 5px;
+font-size: 30px;
+margin-left: 50%;
+    }

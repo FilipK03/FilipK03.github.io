@@ -1,0 +1,44 @@
+.parent1 {
+display: flex;
+width: 100%;
+height: 33.3vh;
+}
+
+.box1{
+    background-color: white;
+    width: 25%;
+    height: 33.3vh;
+
+}
+.box2 {
+    background-color: blue;
+    width: 25%;
+    height: 33.3vh;
+}
+
+.box3 {
+    background-color: white;
+    width: 25%;
+    height: 33.3vh;
+}
+
+.parent2{
+    width: 100%;
+    height: 100vh;    
+}
+
+.box5 {
+background-color: blue;
+width: 100%;
+height: 33.3vh;
+}
+
+.parent3{
+    display: flex;
+}
+
+body{
+
+    margin: 0px;
+}
+

@@ -4,20 +4,51 @@ body {
     align-items: center;
     background-color: lightgray;
     height: 100vh;
-    
-    .parent{
-
-
-    }
     }
     
+    .parent {
+        height: 600px;
+        border: 80px solid white;
+        background-color: white;
+        border-radius: 3%;
+        box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.5)
+    }
+
+    h1 {
+        font-size: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+font-weight: lighter;
+    }
+    h3 {
+        display: flex;
+justify-content: center;
+align-items: center;
+     font-family: sans-serif;
+     color: grey;  
+    }
     .picture {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5) inset;
     border-radius: 50%;
     background: url(cow.jpg);
     background-repeat: no-repeat;
     background-size: 300px 300px;  
     background-position: center;
-    box-shadow: 0.1px 0.1px 3px black, 0.1px 0.1px 3px black inset;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    hr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
     }

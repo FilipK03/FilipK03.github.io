@@ -1,0 +1,84 @@
+.parent1 {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    width: 100%;
+    height: 9vh;
+
+}
+
+.logo {
+    display: flex;
+    width: 900px;
+    height: 100%;
+
+
+}
+.box-text {
+    width: 150px;
+    margin: auto 0px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+width: 100px;
+box-shadow: 0px -7px 0px red inset;
+
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+width: 100px;
+
+
+}
+.about:hover {
+    box-shadow: 0px -7px 0px red inset;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-left: 0px;
+width: 100px;
+}
+.contact:hover {
+    box-shadow: 0px -7px 0px red inset;
+}
+
+body {
+    margin: 0px;
+}
+
+
+h1 {
+    margin: 0px;
+    color: white;
+font-family: sans-serif;
+font-weight: lighter;
+font-size: 30px;
+}
+
+.text1 {
+    margin-left: 6%;
+color: lightgray;
+font-family: sans-serif;
+font-weight: lighter;
+font-size: 17px;
+
+}
+
+h3 {
+
+font-family: sans-serif;
+font-weight: lighter;
+color: white;
+
+}

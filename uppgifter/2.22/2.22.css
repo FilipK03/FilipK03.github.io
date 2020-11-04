@@ -1,0 +1,90 @@
+
+body {
+    margin: 0px;
+}
+.bigbox {
+    padding: 1%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5vh;
+
+width: 35%;
+height: 90vh;
+
+}
+
+.dogbox {
+    box-shadow: 0px 1px 1.5px black;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+background-color: white;
+width: 60%;
+height: 19vh;
+display: flex;
+}
+
+
+img {
+border-radius: 5%;
+margin-left: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.dogtext {
+width: 54%;
+height: 17.5vh;
+margin-left: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.catbox {
+box-shadow: 0px 1px 1.5px black;
+    border-radius: 3%;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+background-color: white;
+width: 60%;
+height: 19vh;
+display: flex;
+
+}
+.cattext {
+
+width: 54%;
+height: 17.5vh;
+margin-left: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.cowbox {
+    box-shadow: 0px 1px 1.5px black;
+    border-radius: 3%;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+background-color: white;
+width: 60%;
+height: 19vh;
+display: flex;
+}
+.cowtext {
+
+    width: 54%;
+    height: 17.5vh;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+h1 {
+margin: 0px;
+font-family: sans-serif;
+}
+
+p {
+font-family: sans-serif;
+margin: 0px;
+font-size: 1rem;
+}

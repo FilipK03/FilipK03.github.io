@@ -34,3 +34,6 @@ margin-left: 2%;
     font-weight: bold;
     font-size: calc(1vw + 1vh);
 }
+a {
+    text-decoration: none;
+}

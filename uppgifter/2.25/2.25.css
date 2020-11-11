@@ -7,13 +7,13 @@
 
 p{
 font-size: calc(0.6vw + 0.6vh);
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 margin-top: 4%;
 }
 
 h1 {
 
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
     font-weight: bolder;
     font-size: calc(1.9vw + 1.4vh);
 }

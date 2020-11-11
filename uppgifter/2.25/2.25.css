@@ -1,0 +1,36 @@
+.parent {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 90%;
+    max-width: 700px;
+}
+
+p{
+font-size: calc(0.6vw + 0.6vh);
+font-family: Roboto;
+margin-top: 4%;
+}
+
+h2 {
+
+    font-family: Oswald;
+    font-weight: bolder;
+    font-size: calc(1.9vw + 1.4vh);
+}
+
+strong {
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 4%;
+}
+
+h3 {
+margin-top: 5%;
+margin-left: 2%;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: calc(1vw + 1vh);
+}

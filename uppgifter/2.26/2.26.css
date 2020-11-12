@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
 }
-
 @media screen and (max-width: 900px) {
     body {
         background-color: red;

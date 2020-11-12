@@ -1,0 +1,76 @@
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Desktop {
+
+    display: unset;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+.Desktop {
+
+display: none;
+}
+
+}
+
+.Tablet {
+
+    display: none;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+.Tablet {
+
+display: unset;
+
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .Tablet {
+    
+    display: none;
+    
+    }
+    .phone{
+        display: unset;
+    }
+    
+    }
+
+
+.Phone {
+
+    display: none;
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+.Phone {
+
+display: unset;
+
+}
+
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}

@@ -18,7 +18,7 @@ flex-direction: column;
     border-radius: 2px;
     width: 272px;
     height: 310px;
-    border:1px solid black;
+    border:1px solid darkgray;
 }
 
 @media (max-width:768px){

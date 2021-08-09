@@ -1,0 +1,21 @@
+body {
+    width: 100wv;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(11, 9, 66) , rgb(54, 49, 111));
+margin: 0;
+}
+.parent {
+background-color: rgb(29, 3, 95);
+border: 5px solid rgb(30, 7, 90);
+    border-radius: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+ font-size: 5vw;
+ font-family: 'Rajdhani';
+ font-weight: lighter;
+}

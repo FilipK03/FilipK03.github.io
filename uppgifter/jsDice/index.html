@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dice</title>
+</head>
+<body>
+    
+    <img id="display" src="dice-1.svg" width="256" height="256">
+    <img id="display2" src="dice-1.svg" width="256" height="256">
+    <img id="display3" src="dice-1.svg" width="256" height="256">
+    <img id="display4" src="dice-1.svg" width="256" height="256">
+    <img id="display5" src="dice-1.svg" width="256" height="256">
+    <img id="display6" src="dice-1.svg" width="256" height="256">
+    
+    <button id="roll">Roll</button>
+
+<script>
+let displayImage = document.getElementById("display");
+let displayImage2 = document.getElementById("display2");
+let displayImage3 = document.getElementById("display3");
+let displayImage4 = document.getElementById("display4");
+let displayImage5 = document.getElementById("display5");
+let displayImage6 = document.getElementById("display6");
+
+let rollButton = document.getElementById("roll");
+
+rollButton.addEventListener("click", roll);
+
+function roll() {
+  let randomNumber = Math.round(Math.random() * 5 + 1);
+  let randomNumber2 = Math.round(Math.random() * 5 + 1);
+  let randomNumber3 = Math.round(Math.random() * 5 + 1);
+  let randomNumber4 = Math.round(Math.random() * 5 + 1);
+  let randomNumber5 = Math.round(Math.random() * 5 + 1);
+  let randomNumber6 = Math.round(Math.random() * 5 + 1);
+
+  displayImage.src = "dice-" + randomNumber + ".svg";
+  displayImage2.src = "dice-" + randomNumber2 + ".svg";
+  displayImage3.src = "dice-" + randomNumber3 + ".svg";
+  displayImage4.src = "dice-" + randomNumber4 + ".svg";
+  displayImage5.src = "dice-" + randomNumber5 + ".svg";
+  displayImage6.src = "dice-" + randomNumber6 + ".svg";
+}
+
+</script>
+
+</body>
+</html>

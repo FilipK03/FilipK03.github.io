@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+
+<body id="body">
+    <button id="red-button">Röd knapp!</button>
+    <button id="green-button">Grön knapp!</button>
+    <button id="orange-button">Orange knapp!</button>
+    <button id="yellow-button">Gul knapp!</button>
+    <button id="blue-button">Blå knapp!</button>
+
+
+    <button id="red-text">Röd text!</button>
+    <button id="green-text">Grön text!</button>
+    <button id="orange-text">Orange text!</button>
+    <button id="yellow-text">Gul text!</button>
+    <button id="blue-text">Blå text!</button>
+
+    <h1>Hej på dig</h1>
+
+    <script>
+      let bodyElement = document.getElementById("body");
+      let redButtonElement = document.getElementById("red-button");
+      let greenButtonElement = document.getElementById("green-button");
+      let orangeButtonElement = document.getElementById("orange-button");
+      let yellowButtonElement = document.getElementById("yellow-button");
+      let blueButtonElement = document.getElementById("blue-button");
+  
+      
+      let redButtonElement = document.getElementById("red-text");
+      let greenTextElement = document.getElementById("green-text")
+      let orangeTextElement = document.getElementById("orange-text")
+      let yellowTextElement = document.getElementById("yellow-text")  
+      let blueTextElement = document.getElementById("blue-text")
+
+      redButtonElement.addEventListener("click", ButtonRed);
+      greenButtonElement.addEventListener("click", ButtonGreen);
+      orangeButtonElement.addEventListener("click", ButtonOrange);
+      yellowButtonElement.addEventListener("click", ButtonYellow);
+      blueButtonElement.addEventListener("click", ButtonBlue);
+
+      redButtonElement.addEventListener("click", textRed);
+    greenTextElement.addEventListener("click", textGreen);
+    orangeTextElement.addEventListener("click", textOrange);
+    yellowTextElement.addEventListener("click", textYellow);
+    blueTextElement.addEventListener("click", textBlue);
+
+      function ButtonRed() {
+        bodyElement.style.background = "red";
+      }
+
+      
+      function ButtonGreen() {
+        bodyElement.style.background = "green";
+      }
+
+      
+      function ButtonOrange() {
+        bodyElement.style.background = "orange";
+      }
+
+      
+      function ButtonYellow() {
+        bodyElement.style.background = "yellow";
+      }
+
+      
+      function ButtonBlue() {
+        bodyElement.style.background = "blue";
+      }
+
+      
+      function textRed() {
+        bodyElement.style.background = "red";
+      }
+
+      
+      function textGreen() {
+        bodyElement.style.background = "green";
+      }
+
+      
+      function textOrange() {
+        bodyElement.style.background = "orange";
+      }
+
+      
+      function textYellow() {
+        bodyElement.style.background = "yellow";
+      }
+
+      
+      function textBlue() {
+        bodyElement.style.background = "blue";
+      }
+    </script>
+  <body>
+
+</html>

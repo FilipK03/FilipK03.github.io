@@ -1,0 +1,71 @@
+body {
+height: 50vh;
+width: 100%;
+margin: 0;
+margin-top: 15%;
+}
+
+p {
+
+font-weight: bold;
+font-family: sans-serif;
+}
+
+
+button {
+
+margin-left: -7%;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 0;
+width: 100%;
+height: 5vh;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 5vh;
+    
+    }
+
+    
+
+    .box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        height: 5vh;
+        
+        }
+
+        .box4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            width: 100%;
+            height: 5vh;
+            
+            }
+    h1 {
+
+font-family: sans-serif;
+
+    }
+    input {
+        margin-left: 1%;
+        margin-right: 1%;
+    } 
+    

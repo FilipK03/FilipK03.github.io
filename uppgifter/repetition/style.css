@@ -1,0 +1,29 @@
+body {
+
+margin: 0;
+
+}
+
+.parent {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 5vh;
+width: 100%;
+
+}
+.parent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 5vh;
+width: 100%;
+
+}
+
+button {
+height: 20px;
+width: 50px;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+</head>
+<body>
+    
+<input id="input" placeholder="write farenheit" type="text">
+
+<button id="button">convert</button>
+
+<h1 id="h1"></h1>
+
+<script>
+let inputElement = document.getElementById("input");
+let buttonElement = document.getElementById("button");
+let h1Element = document.getElementById("h1");
+
+
+
+buttonElement.addEventListener("click", buttonfunction);
+
+function buttonfunction() {
+
+let sum = parseFloat(inputElement.value);
+let celsius = (sum - 32||0) * 5 / 9;
+
+
+
+h1Element.innerHTML = "celsius " + celsius;
+
+}
+</script>
+
+</body>
+</html>

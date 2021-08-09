@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+</head>
+<body>
+
+    <div class="parent">
+<h1 id="h1"></h1>
+</div>
+
+
+<div class="parent2">
+    <button id="button">click</button>
+</div>
+
+
+<script>
+
+    let text = document.getElementById("h1");
+    let buttonElement = document.getElementById("button");
+
+
+buttonElement.addEventListener("click", buttonfunction);
+
+
+
+function buttonfunction() {
+text.innerHTML = "Hej på dig!";
+text.style.color = "deeppink";
+}
+
+</script>
+
+</body>
+</html>

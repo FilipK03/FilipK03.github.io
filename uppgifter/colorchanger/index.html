@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color test</title>
+</head>
+<body id="body">
+    
+
+<div class="parent">
+
+<div class="box1">
+    <p id="p">color changer 2k</p>
+
+</div>
+
+<div class="box2">
+    <input id="bgcolorInput" type="text">
+    <input id="textcolorInput" type="text">
+    <input id="fontsizeInput" type="text">
+
+</div>
+
+<div class="box3">
+ <button id="button">skicka</button>
+
+</div>
+<div class="box3">
+
+</div>
+</div>
+
+<script>
+
+let buttonElement = document.getElementById("button");
+
+let inputElement = document.getElementById("bgcolorInput");
+
+let inputElement2 = document.getElementById("textcolorInput");
+
+let inputElement3 = document.getElementById("fontsizeInput") 
+
+let pElement = document.getElementById("p");
+
+let bodyElement = document.getElementById("body")
+
+buttonElement.addEventListener("click", buttonClick);
+
+function buttonClick () 
+{
+
+pElement.style.fontSize = fontsizeInput.value + "px";
+
+pElement.style.color = textcolorInput.value;
+   bodyElement.style.backgroundColor = bgcolorInput.value;
+
+}
+
+</script>
+
+
+</body>
+</html>

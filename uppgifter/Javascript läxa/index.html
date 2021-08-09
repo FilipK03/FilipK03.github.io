@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+</head>
+
+<body id="body">
+    <button id="red-button">Röd knapp!</button>
+    <button id="green-button">Grön knapp!</button>
+    <button id="orange-button">Orange knapp!</button>
+    <button id="yellow-button">Gul knapp!</button>
+    <button id="blue-button">Blå knapp!</button>
+
+    <button id="red-text">Röd text!</button>
+    <button id="green-text">Grön text!</button>
+    <button id="orange-text">Orange text!</button>
+    <button id="yellow-text">Gul text!</button>
+    <button id="blue-text">Blå text!</button>
+
+    <button id="small-text">small text!</button>
+    <button id="medium-text">medium text!</button>
+    <button id="big-text">big text!</button>
+    <button id="bigger-text">bigger text!</button>
+    <button id="biggest-text">biggest text!</button>
+
+    <h1 id="h1">Hej på dig</h1>
+
+
+    <script>
+      let bodyElement = document.getElementById("body");
+      let h1Element = document.getElementById("h1");
+      let redButtonElement = document.getElementById("red-button");
+      let greenButtonElement = document.getElementById("green-button");
+      let orangeButtonElement = document.getElementById("orange-button");
+      let yellowButtonElement = document.getElementById("yellow-button");
+      let blueButtonElement = document.getElementById("blue-button");
+
+
+      let redTextElement = document.getElementById("red-text");
+      let greenTextElement = document.getElementById("green-text")
+      let orangeTextElement = document.getElementById("orange-text")
+      let yellowTextElement = document.getElementById("yellow-text")  
+      let blueTextElement = document.getElementById("blue-text")
+
+      let smallTextElement = document.getElementById("small-text");
+      let mediumTextElement = document.getElementById("medium-text");
+      let bigTextElement = document.getElementById("big-text");
+      let biggerTextElement = document.getElementById("bigger-text");
+      let biggestTextElement = document.getElementById("biggest-text");
+
+      redButtonElement.addEventListener("click", ButtonRed);
+      greenButtonElement.addEventListener("click", ButtonGreen);
+      orangeButtonElement.addEventListener("click", ButtonOrange);
+      yellowButtonElement.addEventListener("click", ButtonYellow);
+      blueButtonElement.addEventListener("click", ButtonBlue);
+
+    redTextElement.addEventListener("click", textRed);
+    greenTextElement.addEventListener("click", textGreen);
+    orangeTextElement.addEventListener("click", textOrange);
+    yellowTextElement.addEventListener("click", textYellow);
+    blueTextElement.addEventListener("click", textBlue);
+
+    smallTextElement.addEventListener("click", textsmall);
+    mediumTextElement.addEventListener("click", textmedium);
+    bigTextElement.addEventListener("click", textbig);
+    biggerTextElement.addEventListener("click", textbigger);
+    biggestTextElement.addEventListener("click", textbiggest);
+
+      function ButtonRed() {
+        bodyElement.style.background = "red";
+      }
+
+      
+      function ButtonGreen() {
+        bodyElement.style.background = "green";
+      }
+
+      
+      function ButtonOrange() {
+        bodyElement.style.background = "orange";
+      }
+
+      
+      function ButtonYellow() {
+        bodyElement.style.background = "yellow";
+      }
+
+      
+      function ButtonBlue() {
+        bodyElement.style.background = "blue";
+      }
+
+      //-------------------------------------
+      
+      function textRed() {
+        h1Element.style.color = "red";
+      }
+
+      
+      function textGreen() {
+        h1Element.style.color = "green";
+      }
+
+      
+      function textOrange() {
+        h1Element.style.color = "orange";
+      }
+
+      
+      function textYellow() {
+        h1Element.style.color = "yellow";
+      }
+
+      
+      function textBlue() {
+        h1Element.style.color = "blue";
+      }
+            //-------------------------------------
+
+            function textsmall() {
+h1Element.style.fontSize = "15px";
+            }
+
+            function textmedium() {
+h1Element.style.fontSize = "25px";
+            }
+
+            function textbig() {
+h1Element.style.fontSize = "35px";
+            }
+
+            function textbigger() {
+h1Element.style.fontSize = "45px";
+            }
+
+            function textbiggest() {
+h1Element.style.fontSize = "55px";
+            }
+
+    </script>
+  <body>
+
+</html>

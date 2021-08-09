@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+</head>
+<body>
+
+<h1 id="h1"></h1>
+<button id="button"></button>
+<button id="button2"></button>
+
+
+<script>
+let h1Element = document.getElementById("h1");
+let buttonElement = document.getElementById("button");
+let  buttonElement2 = document.getElementById("button2");
+
+
+buttonElement.addEventListener("click", buttonfunction);
+buttonElement2.addEventListener("click", buttonfunction2);
+
+
+function buttonfunction() {
+h1.innerHTML = "Välkommen";
+}
+
+function buttonfunction2() {
+h1.innerHTML = "";
+}
+</script>
+
+</body>
+</html>

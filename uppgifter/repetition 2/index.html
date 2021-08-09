@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YES</title>
+</head>
+<body>
+
+    <h1 id="h1">0</h1>
+    <button id="button">+</button>
+    <button id="button2">-</button>
+
+
+    
+    <script>
+
+let number = document.getElementById("h1");
+let buttonElement = document.getElementById("button");
+let buttonElement2 = document.getElementById("button2");
+
+let sum = 0;
+
+buttonElement.addEventListener("click", buttonfunction);
+buttonElement2.addEventListener("click", buttonfunction2);
+
+
+function buttonfunction() {
+sum += 1;
+number.innerHTML = sum;
+}
+
+function buttonfunction2() {
+sum -= 1;
+number.innerHTML = sum;
+
+}
+    </script>
+</body>
+</html>

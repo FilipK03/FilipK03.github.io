@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+
+    <input id="input1" type="text">
+    <input id="input2" type="text">
+    <button id="button1">+</button>
+    <button id="button2">-</button>
+
+    <h1 id="h1"></h1>
+
+<script>
+
+let inputElement1 = document.getElementById("input1");
+let inputElement2 = document.getElementById("input2");
+
+let h1Element = document.getElementById("h1");
+let h1Element2 = document.getElementById("h1");
+
+
+let ButtonElement1 = document.getElementById("button1");
+let buttonElement2 = document.getElementById("button2");
+
+
+
+ButtonElement1.addEventListener("click", buttonfunction);
+buttonElement2.addEventListener("click", buttonfunction2);
+
+
+function buttonfunction() {
+
+let sum = parseFloat(inputElement1.value||0) + parseFloat(inputElement2.value||0);
+
+
+h1Element.innerHTML = "Svar " + sum;
+}
+
+function buttonfunction2() {
+
+let sum2 = parseFloat(inputElement1.value||0) - parseFloat(inputElement2.value||0);
+
+
+h1Element2.innerHTML = "Svar " + sum2;
+}
+</script>
+
+</body>
+</html>

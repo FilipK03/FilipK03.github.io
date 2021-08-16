@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(220, 220, 255);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+textarea {
+    margin: 0;
+    width: 320px;
+    height: 100px;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.parent {
+    display: row;
+}
+h1 {
+    font-family: sans-serif;
+    color: rgb(39, 39, 39);
+    background-color: rgb(210, 210, 255);
+margin-bottom: 0px;
+font-size: 30px;
+}
+
+p {
+    margin-top: -10px;
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    font-weight: 600;
+
+    
+}
+
+.parent2 {
+    background-color: whitesmoke;
+    width: 298px;
+    height: 25px;
+    padding: 15px;
+}

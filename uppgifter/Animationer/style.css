@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    border-radius: 20px;
+
+    animation: glow 8s infinite, colorchange 8s infinite;
+  
+  }
+  
+  @keyframes colorchange {
+    0%   {background: red;}
+    10%  {background: rgb(255, 225, 0);}
+    20% {background: rgb(149, 255, 0);}
+    30%  {background: rgb(0, 255, 166);}
+    40%   {background: rgb(0, 187, 255);}
+    50%   {background: rgb(0, 34, 255);}
+    60%   {background: rgb(195, 0, 255);}
+    70%   {background: rgb(255, 0, 230);}
+    80%   {background: rgb(255, 0, 85);}
+    100%   {background: red;}
+  }
+
+  @keyframes glow {
+0%  {box-shadow: 10px 10px 10px rgb(137, 0, 0);}
+10%  {box-shadow: 10px 10px 10px rgb(145, 128, 0);}
+20%  {box-shadow: 10px 10px 10px rgb(82, 140, 0);}
+30%  {box-shadow: 10px 10px 10px rgb(0, 137, 89);}
+40%  {box-shadow: 10px 10px 10px rgb(0, 104, 142);}
+50%  {box-shadow: 10px 10px 10px rgb(0, 17, 128);}
+60%  {box-shadow: 10px 10px 10px rgb(101, 0, 132);}
+70%  {box-shadow: 10px 10px 10px rgb(117, 0, 105);}
+80%  {box-shadow: 10px 10px 10px rgb(117, 0, 33);}
+100%  {box-shadow: 10px 10px 10px rgb(137, 0, 0);}
+
+  }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,21 @@
 </head>
 <body>
 
+
+
+<div class="parent">
+<h1>Word & Letter counter</h1>
     <textarea></textarea>
-<h1 id="h1"></h1>
-<h2 id="h2"></h2>
+    <div class="parent2">
+<p id="h1">Letters</p>
+<p id="h2">Words</p>
+</div>
+</div>
     <script>
 
 document.querySelector('textarea').addEventListener('input', function (event) {
-    document.getElementById("h1").innerHTML = event.target.value.length;
-    document.getElementById("h2").innerHTML = ( countWords(event.target.value) );
+    document.getElementById("h1").innerHTML = "Letters" + " " + event.target.value.length;
+    document.getElementById("h2").innerHTML =  "Words" + " " + ( countWords(event.target.value) );
 });
 
 function countWords(str) {

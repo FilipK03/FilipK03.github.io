@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakgrundsfärg</title>
+</head>
+<body>
+    
+<button type="button" onclick="myFunction()">Set background color</button>
+    <input id="input" type="text">
+    <input id="input2" type="text">
+    <input id="input3" type="text">
+
+
+    <script>
+
+const inputElement1 = document.getElementById('input');
+const inputElement2 = document.getElementById('input2');
+const inputElement3 = document.getElementById('input3');
+
+
+inputElement1.addEventListener('input', onInput1Changed);
+inputElement2.addEventListener('input', onInput1Changed);
+inputElement3.addEventListener('input', onInput1Changed);
+
+
+
+function onInput1Changed(x) {
+
+  let num = parseInt(x.target.value);
+
+  if(num > 255) {
+    x.target.value = 0;
+  }
+
+}
+
+
+
+function myFunction() {
+let x = document.getElementById("input").value;
+let y = document.getElementById("input2").value;
+let z = document.getElementById("input3").value;
+
+  document.body.style.backgroundColor = "rgb(" + x + "," + y + "," + z + ")";
+}
+
+
+    </script>
+    
+
+</body>
+</html>

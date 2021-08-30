@@ -1,0 +1,19 @@
+body {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(143, 216, 236);
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+button {
+border: none;
+}
+

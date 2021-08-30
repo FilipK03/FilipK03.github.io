@@ -1,0 +1,39 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+
+
+.container {
+    padding: 20px;
+    width: 100%;
+    height: 50vh;
+background-color: black;
+display: flex;
+}
+
+.child1 {
+width: 33%;
+height: 100%;
+background-color: green;
+}
+
+.child2 {
+    width: 33%;
+    height: 100%;
+    background-color: gray;
+    }
+
+    .child3 {
+        width: 33%;
+        height: 100%;
+        background-color: orange;
+        margin-right: 40px;
+        }
+        p {
+            font-size: 0.7rem;
+            color: white;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }

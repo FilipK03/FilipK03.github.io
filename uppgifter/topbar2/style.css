@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 158, 105);
+}
+
+.topbar {
+    display: flex;
+height: 15vh;
+width: 100%;
+background-color: rgb(164, 5, 5);
+} 
+
+.box1 {
+    text-align: center;
+width: 25%;
+height: 100%;
+}
+.box2 {
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+.box3 {
+    text-align: center;    
+    width: 25%;
+    height: 100%;
+}
+.box4 {
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+p {
+    margin-top: 10%;
+    font-size: 1.5vw;
+}

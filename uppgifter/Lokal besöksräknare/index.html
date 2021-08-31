@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>besöksräknare</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Counter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="h1"></h1>
-
-<script>
-
-
-
-let a = 1 + parseInt(window.localStorage.getItem('number'));
-
-
-
-window.localStorage.setItem('number', a);
-
-
-document.getElementById("h1").innerHTML = "Times visited" + " " + parseInt(window.localStorage.getItem('number'));
-
-
-
-</script>
-
+  <div class="container" id="container">
+    Du har besökt denna sida 0 gånger.
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>

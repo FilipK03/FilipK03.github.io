@@ -1,4 +1,6 @@
 body {
+    overflow-y: hidden;
+  overflow-x: hidden;
     margin: 0;
     padding: 0;
     background-color: rgb(187, 158, 105);
@@ -34,4 +36,36 @@ height: 100%;
 p {
     margin-top: 10%;
     font-size: 1.5vw;
+}
+
+.midbox1 {
+
+width: 50%;
+height: 70vh;
+background-color: rgb(226, 103, 21);
+}
+
+.parentMidbox {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 98.7%;
+    height: 70vh;
+    background-color: rgb(128, 84, 1);
+}
+
+.bottombox {
+    text-align: center;
+    margin-top: -180px;
+    width: 100%;
+    height: 15vh;
+    background-color: green;
+
+}
+
+p {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
 }

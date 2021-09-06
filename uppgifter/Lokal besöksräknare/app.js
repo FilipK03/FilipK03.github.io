@@ -10,6 +10,8 @@ if(isNaN(count)) {
 
 count++;
 
+
+
 if(count == 1) {
     containerElement.textContent = `Du har besökt denna sida ${count} gång.`;
 }

@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;
+flex-direction: column;
+}
+
+.post-meta {
+    background-color: rgb(212, 212, 212);
+    width: 380px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+i {
+    font-weight: lighter;
+    color: gray;
+    margin-left: 3px;
+}
+
+span {
+    margin-top: 3px;
+    font-weight: lighter;
+    font-size: 13px;
+    color: gray;
+}
+
+.post-content {
+    padding-top: 25px;
+width: 380px;
+height: 50px;
+
+}
+
+
+.post {
+    margin-top: 50px;
+    width: 379.9px;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(170, 170, 170);
+}
